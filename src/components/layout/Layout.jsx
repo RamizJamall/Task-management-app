@@ -66,7 +66,7 @@ export default function Layout() {
               <h6 className="text-info mx-3 border-bottom border-info border-3 pb-1">Tasks</h6>
               <h6 className="mx-3">Timeline</h6>
               <h6 className="mx-3">Files</h6>
-              <h6 className="mx-3">Overview</h6>
+             
             </div>
 
             <div className="custom-bg-grey">
