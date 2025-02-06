@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.status-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-3 {
+  border-radius: 1rem;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.ms-2 {
+  margin-left: 0.5rem;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+.custom-bg-grey {
+  background-color: #e6e6e6; 
+ 
+}
+
+
+.filter-box {
+  cursor: pointer;
+  border-radius: 80px;
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+
+
+
+
+.filter-title {
+  font-size: 1rem; 
+}
+
+
+.active-filter {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .bg-light {
+  background-color: #1e1e1e !important;
+  color: white !important;
+}
+
+.dark-mode .btn {
+  color: white;
+  border: 1px solid white;
+}
+
+.dark-mode .btn-danger {
+  background-color: #ff4d4d;
+}
+
+.dark-mode .custom-bg-grey {
+  background-color: #2a2a2a !important; /* Dark grey */
+  color: white !important;
+}
